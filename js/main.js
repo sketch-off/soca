@@ -6,7 +6,26 @@
   baseURL = 'https://api.sketch-off.com/api/v1';
 
   prettify = function(str) {
-    return JSON.stringify(JSON.parse(str), null, 2);
+    str = JSON.stringify(JSON.parse(str), null, 4);
+    str = str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+    return str.replace(/("(\\u[a-zA-Z0-9]{4}|\\[^u]|[^\\"])*"(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?)/g, function(match) {
+      var cls;
+      cls = 'number';
+      if (/^"/.test(match)) {
+        if (/:$/.test(match)) {
+          cls = 'key';
+        } else {
+          cls = 'string';
+        }
+      } else if (/true|false/.test(match)) {
+        cls = 'boolean';
+      } else {
+        if (/null/.test(match)) {
+          cls = 'null';
+        }
+      }
+      return "<span class=\"" + cls + "\">" + match + "</span>";
+    });
   };
 
   $('#panel-input').keyup(function(e) {
@@ -64,7 +83,7 @@
   processResponse = function(xhr) {
     $('#collapse-input').collapse('hide');
     $('#response-header').text(xhr.getAllResponseHeaders());
-    return $rb.text(prettify(xhr.responseText));
+    return $rb.html(prettify(xhr.responseText));
   };
 
 }).call(this);

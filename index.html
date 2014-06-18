@@ -24,6 +24,11 @@
       a .panel-title {
         color: black;
       }
+      .string { color: green; }
+      .number { color: red; }
+      .boolean { color: blue; }
+      .null { color: magenta; }
+      .key { font-weight: bold; }
     </style>
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/main.css">
@@ -42,7 +47,7 @@
         <div class="panel-body">
           <div class="form-group">
             <label for="request-line">Request Line</label>
-            <input class="form-control" id="request-line">
+            <input class="form-control" id="request-line" value="/users/1">
           </div>
           <div id="collapse-input" class="panel-collapse collapse in">
             <div class="form-group">
