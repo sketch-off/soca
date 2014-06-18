@@ -1,0 +1,1594 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"em",
+				"empty_mask"
+			],
+			[
+				"find",
+				"find_by"
+			],
+			[
+				"search",
+				"search_hash"
+			],
+			[
+				"updat",
+				"update_avatar"
+			],
+			[
+				"UserTag",
+				"tell_user_to_update_top_tags"
+			],
+			[
+				"lika",
+				"likable_type"
+			],
+			[
+				"lik",
+				"likable_id"
+			],
+			[
+				"like",
+				"likable_type"
+			],
+			[
+				"s",
+				"should_double"
+			],
+			[
+				"check",
+				"check_digit"
+			],
+			[
+				"sum",
+				"sum_of_digits"
+			],
+			[
+				"out",
+				"outer_area"
+			],
+			[
+				"are",
+				"area_pipe"
+			],
+			[
+				"aut",
+				"author_id"
+			],
+			[
+				"authen",
+				"authentication_token"
+			],
+			[
+				"class",
+				"class_name"
+			],
+			[
+				"do",
+				"do"
+			],
+			[
+				"params",
+				"params"
+			],
+			[
+				"user",
+				"user_tag"
+			],
+			[
+				"friend",
+				"FriendRequest"
+			],
+			[
+				"frien",
+				"friend_requests"
+			],
+			[
+				"para",
+				"params"
+			],
+			[
+				"will",
+				"will_halt"
+			],
+			[
+				"User",
+				"UserPreference"
+			],
+			[
+				"po",
+				"postfixToETreeHelper"
+			],
+			[
+				"show",
+				"showInfixHelper"
+			],
+			[
+				"M",
+				"Multiply"
+			],
+			[
+				"top",
+				"top_tags_array"
+			],
+			[
+				"post",
+				"post_data"
+			],
+			[
+				"aux",
+				"auxPerm"
+			],
+			[
+				"create",
+				"create_with"
+			],
+			[
+				"current",
+				"current_user"
+			],
+			[
+				"target",
+				"target_id"
+			],
+			[
+				"json",
+				"json_response"
+			],
+			[
+				"auth",
+				"auth_token"
+			],
+			[
+				"js",
+				"json_response"
+			],
+			[
+				"err",
+				"error_message"
+			],
+			[
+				"redire",
+				"redirect_path"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 4068,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Guardfile",
+			"settings":
+			{
+				"buffer_size": 78,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 92,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".init.sh",
+			"settings":
+			{
+				"buffer_size": 79,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 229.0,
+		"selected_items":
+		[
+			[
+				"conver",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"ssshe",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"latex",
+				"LaTeXTools: Reconfigure and migrate settings"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"ssru",
+				"Set Syntax: Ruby"
+			],
+			[
+				"ssjson",
+				"Set Syntax: JSON"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"rubytest",
+				"RubyTest: Run All Ruby Tests"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"rspec",
+				"Set Syntax: RSpec"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ssc",
+				"Set Syntax: C"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"ssrub",
+				"Set Syntax: Ruby"
+			],
+			[
+				"delete",
+				"File: Delete"
+			],
+			[
+				"reinde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"indent",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"new view",
+				"File: New View into File"
+			],
+			[
+				"dele",
+				"File: Delete"
+			],
+			[
+				"test",
+				"RubyTest: Show Test Panel"
+			],
+			[
+				"dup",
+				"File: Duplicate"
+			],
+			[
+				"ren",
+				"File: Rename"
+			],
+			[
+				"ssrp",
+				"Set Syntax: RSpec"
+			],
+			[
+				"move",
+				"File: Move"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"shell",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"rspe",
+				"Set Syntax: RSpec"
+			],
+			[
+				"listpa",
+				"Package Control: List Packages"
+			],
+			[
+				"haskell",
+				"Set Syntax: Haskell"
+			],
+			[
+				"ssruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"intall",
+				"Package Control: Install Package"
+			],
+			[
+				"copypa",
+				"File: Copy Path as URI"
+			],
+			[
+				"coffeescript",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"convertta",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"path",
+				"File: Copy Path"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"build",
+				"Build: Build"
+			],
+			[
+				"racket",
+				"Set Syntax: Racket"
+			]
+		],
+		"width": 507.0
+	},
+	"console":
+	{
+		"height": 566.0,
+		"history":
+		[
+			"print(1)",
+			"print 1",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/luans/soca/js/main.coffee",
+		"/Users/luans/soca/js/main.js",
+		"/Users/luans/soca/index.html",
+		"/Users/luans/SkyDrive/Desktop/Bad apartments.txt",
+		"/Users/luans/SkyDrive/Desktop/Xfinity information.txt",
+		"/Users/luans/u.py",
+		"/Volumes/My Passport/Videos/Bruce Almighty/[冒牌天神].Bruce.Almighty.2003.BDRip.X264-TLF.chs.srt",
+		"/Users/luans/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/luans/SkyDrive/Desktop/STAT_23400/hw2.tex",
+		"/Users/luans/luans-cs154-2014/p1bitmanip/bits.c",
+		"/Users/luans/Downloads/Game.of.Thrones.S04.mkv/Game.of.Thrones.S04E02.720p.HDTV.x264-2HD.ass",
+		"/Users/luans/luans-cs154-2014/p1bitmanip/btest.c",
+		"/Users/luans/luans-cs154-2014/hw2/hw2.txt",
+		"/Users/luans/refind.conf",
+		"/Users/luans/SkyDrive/Desktop/STAT_23400/hw0.tex",
+		"/Users/luans/code.c",
+		"/Users/luans/code.s",
+		"/Users/luans/code.o",
+		"/Users/luans/end.c",
+		"/Users/luans/showbits.c",
+		"/Users/luans/luans-cs154-2014/p1bitmanip/README",
+		"/Users/luans/luans-cs154-2014/p1bitmanip/btest.h",
+		"/Users/luans/luans-cs154-2014/p1bitmanip/decl.c",
+		"/Users/luans/luans-cs154-2014/p1bitmanip/Makefile",
+		"/Users/luans/luans-cs154-2014/p1bitmanip/fshow.c",
+		"/Users/luans/SkyDrive/Desktop/2013-1-Autumn/CMSC_15100 Intro to CompSci/luans-cs151-aut-13/hw6/hw6-p1.tex",
+		"/Users/luans/rack.rb",
+		"/Users/luans/delta-epsilon/.init.sh",
+		"/Users/luans/copy/app/models/tag.rb",
+		"/Users/luans/fb_likes.rb",
+		"/Users/luans/my_likes.json",
+		"/Users/luans/her_likes.json",
+		"/Users/luans/delta-epsilon/spec/requests/api/v1/authenticate_facebook_spec.rb",
+		"/Users/luans/delta-epsilon/spec/requests/api/v1/authenticate_spec.rb",
+		"/Users/luans/delta-epsilon/config/routes.rb",
+		"/Users/luans/delta-epsilon/app/api/api.rb",
+		"/Users/luans/delta-epsilon/app/api/epsilon/friend_requests.rb",
+		"/Users/luans/delta-epsilon/app/api/epsilon/users.rb",
+		"/Users/luans/delta-epsilon/app/api/epsilon/user_tags.rb",
+		"/Users/luans/delta-epsilon/app/api/epsilon/tag_likes.rb",
+		"/Users/luans/delta-epsilon/app/api/epsilon/search.rb",
+		"/Users/luans/delta-epsilon/app/api/epsilon/pings.rb",
+		"/Users/luans/delta-epsilon/app/api/epsilon/pic_tags.rb",
+		"/Users/luans/delta-epsilon/app/api/epsilon/me.rb",
+		"/Users/luans/delta-epsilon/app/api/epsilon/friends.rb",
+		"/Users/luans/delta-epsilon/app/api/epsilon/comments.rb",
+		"/Users/luans/delta-epsilon/app/api/epsilon/authentication.rb",
+		"/Users/luans/delta-epsilon/Gemfile",
+		"/Users/luans/delta-epsilon/config/environments/production.rb",
+		"/Users/luans/delta-epsilon/delta-epsilon.sublime-project",
+		"/Users/luans/delta-epsilon/.idea/encodings.xml",
+		"/Users/luans/delta-epsilon/app/api/authenticate.rb",
+		"/Users/luans/delta-epsilon/db/migrate/20140208000851_remove_user_avatars.rb",
+		"/Users/luans/delta-epsilon/app/assets/javascripts/users.js.coffee",
+		"/Users/luans/delta-epsilon/config.ru",
+		"/Users/luans/delta-epsilon/app/models/comment.rb",
+		"/Users/luans/Library/Application Support/Sublime Text 3/Packages/User/Darkside.tmTheme",
+		"/Users/luans/1.xml",
+		"/Users/luans/delta-epsilon/app/models/pic_tag.rb",
+		"/Users/luans/delta-epsilon/app/models/user.rb",
+		"/Users/luans/delta-epsilon/config/initializers/delta_epsilon_constants.rb",
+		"/Users/luans/delta-epsilon/app/controllers/friendships_controller.rb",
+		"/Users/luans/delta-epsilon/app/models/friendship.rb",
+		"/Users/luans/delta-epsilon/db/migrate/20131209053607_add_first_last_names_to_users.rb",
+		"/Users/luans/delta-epsilon/config/initializers/filter_parameter_logging.rb",
+		"/Users/luans/delta-epsilon/spec/models/friend_request_spec.rb",
+		"/Users/luans/delta-epsilon/spec/requests/api/v1/authenticate.rb",
+		"/Users/luans/delta-epsilon/spec/support/api_helpers.rb",
+		"/Users/luans/delta-epsilon/spec/requests/api/v1/user_tags_spec.rb",
+		"/Users/luans/delta-epsilon/spec/requests/api/v1/login_spec.rb",
+		"/Users/luans/delta-epsilon/spec/requests/api/v1/user_tags_errors_spec.rb",
+		"/Users/luans/delta-epsilon/spec/spec_helper.rb",
+		"/Users/luans/delta-epsilon/spec/requests/api/v1/login_facebook_spec.rb",
+		"/Users/luans/SkyDrive/Desktop/MATH_16200/Homework_7_20_0228.tex",
+		"/Users/luans/delta-epsilon/app/serializers/pic_tag_serializer.rb",
+		"/Users/luans/delta-epsilon/db/migrate/20131102223205_add_geolocation_to_users.rb",
+		"/Users/luans/delta-epsilon/Gemfile.lock",
+		"/Users/luans/luans-cs152-win-14/graded-work/graded-hw3",
+		"/Users/luans/delta-epsilon/app/serializers/pic_tag_full_serializer.rb",
+		"/Users/luans/delta-epsilon/app/serializers/user_tag_serializer.rb",
+		"/Users/luans/delta-epsilon/app/serializers/user_tag_full_serializer.rb",
+		"/Users/luans/fizz_buzz.rb",
+		"/Users/luans/fizzBuzz.go",
+		"/Users/luans/delta-epsilon/app/serializers/user_full_serializer.rb",
+		"/Users/luans/delta-epsilon/app/serializers/friend_pending_serializer.rb",
+		"/Users/luans/delta-epsilon/app/serializers/friend_request_serializer.rb",
+		"/Users/luans/delta-epsilon/app/serializers/user_serializer.rb",
+		"/Users/luans/delta-epsilon/app/serializers/user_basic_serializer.rb",
+		"/Users/luans/delta-epsilon/config/initializers/serializers.rb",
+		"/Users/luans/delta-epsilon/db/migrate/20140225195230_add_content_to_pic_tags.rb",
+		"/Users/luans/delta-epsilon/app/models/tag_base.rb",
+		"/Users/luans/delta-epsilon/app/models/user_tag.rb",
+		"/Users/luans/delta-epsilon/config/initializers/user_enumerable.rb",
+		"/Users/luans/Library/Application Support/Sublime Text 2/Packages/User/Darkside.tmTheme",
+		"/Users/luans/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/luans/delta-epsilon/config/application.rb",
+		"/Users/luans/delta-epsilon/app/user_serializer.rb",
+		"/Users/luans/delta-epsilon/app/user_serializer",
+		"/Users/luans/delta-epsilon/db/schema.rb",
+		"/Users/luans/delta-epsilon/spec/models/pic_tag_spec.rb",
+		"/Users/luans/delta-epsilon/spec/models/user_tag_spec.rb",
+		"/Users/luans/test.txt",
+		"/Users/luans/delta-epsilon/app/models/tag.rb",
+		"/Users/luans/delta-epsilon/db/migrate/20131112185353_add_location_index_to_users.rb",
+		"/Users/luans/delta-epsilon/db/migrate/20131209032827_add_content_to_user_tags.rb",
+		"/Users/luans/res.py",
+		"/Users/luans/delta-epsilon/config/initializers/s3.rb",
+		"/Users/luans/delta-epsilon/.gitignore",
+		"/Users/luans/delta-epsilon/spec/models/friendship_spec.rb",
+		"/Users/luans/delta-epsilon/app/models/tag_like.rb",
+		"/Users/luans/delta-epsilon/app/models/log_event.rb",
+		"/Users/luans/luans-cs152-win-14/hw4/bexp.c",
+		"/Users/luans/delta-epsilon/app/views/layouts/swagger.html.haml",
+		"/Users/luans/.rvm/gems/ruby-2.0.0-p353/gems/grape-swagger-0.7.2/lib/grape-swagger.rb",
+		"/Users/luans/.rvm/gems/ruby-2.0.0-p353/gems/grape-0.6.1/lib/grape/endpoint.rb",
+		"/Users/luans/delta-epsilon/gems/ruby-2.0.0-p353/gems/grape-swagger-0.7.2/lib/grape-swagger.rb",
+		"/Users/luans/delta-epsilon/db/migrate/20140216175533_change_pic_tags_not_using_paperclip.rb",
+		"/Users/luans/delta-epsilon/config/initializers/wrap_parameters.rb",
+		"/Users/luans/delta-epsilon/config/initializers/session_store.rb",
+		"/Users/luans/delta-epsilon/db/migrate/20140207220815_change_pic_tags_to_polymorphic.rb",
+		"/Users/luans/delta-epsilon/db/migrate/20140216174713_change_pic_tags_not_using_paperclip.rb",
+		"/Users/luans/delta-epsilon/README.rdoc",
+		"/Users/luans/delta-epsilon/Rakefile",
+		"/Users/luans/delta-epsilon/config/database.yml",
+		"/Users/luans/delta-epsilon/db/migrate/20140216165010_add_anonymity_to_user_tags_and_pic_tags.rb",
+		"/Users/luans/delta-epsilon/db/migrate/20140109142559_create_pic_tags.rb",
+		"/Users/luans/delta-epsilon/db/migrate/20140214073001_new_migration.rb",
+		"/Users/luans/delta-epsilon/db/migrate/20131102220417_create_users.rb"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"</i>",
+			"<i>",
+			"8x",
+			"test_ptr",
+			"u1",
+			"params_curre",
+			"create_with",
+			"basic",
+			"seri",
+			"serial",
+			"ser",
+			"serializer",
+			"ut",
+			"anonym",
+			"anonymous",
+			"pic_tags",
+			"params_current",
+			"merge",
+			"facebook",
+			"puts",
+			"api",
+			"target_class",
+			"error!",
+			"delete",
+			"create_with_file",
+			"facebook",
+			"image",
+			"_file_name",
+			"\\exp(e^x)",
+			"\\exp'(e^x)",
+			"\\exp(x)",
+			"\\\\exp\\((.*?)\\)",
+			"avatar_url",
+			"avatar.url",
+			"update_avat",
+			"avatar",
+			"tl1",
+			"create_with",
+			"user_tag",
+			":(c.*?) =>",
+			":(.*) =>",
+			"news_feed",
+			"    ",
+			"M_PI",
+			"self.",
+			"\\sht",
+			"\\st",
+			"self.",
+			"change",
+			"likes_count",
+			"TOP_TAGS_C",
+			"create_with",
+			"fb",
+			"facebook",
+			"LAST_NAMES",
+			"FIRST_NAMES",
+			"\\n",
+			"NTree",
+			"Int",
+			"rspec",
+			"confirm",
+			"\\n ",
+			"precompile",
+			"post",
+			"create_with",
+			"post",
+			"error!",
+			"params_cu",
+			"current_user.id",
+			"delete",
+			"{ authenticate! }",
+			": ",
+			"\"",
+			"support",
+			".*\\n.*\\n.*\\n(.*block.*\\)).*\\n",
+			".*\\n.*\\n.*\\n(.*block.*\\).*)\\n",
+			"<a href=\"#\" onclick=\"$('#selserver1').html(this.innerHTML);return false;\"> ",
+			"\"",
+			"omniauth"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"u",
+			"e^{e^x}",
+			"(e^{e^x})'",
+			"e^x",
+			"e^\\{\\1\\}",
+			"\\1: ",
+			"\\t",
+			"",
+			"\\st",
+			"\\sht",
+			"",
+			"last_names",
+			"first_names",
+			"', '",
+			"ETree",
+			"Double",
+			", ",
+			"do authenticate! end",
+			"'",
+			"\\1\\n",
+			"\\1",
+			"",
+			"'"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4068,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1986,
+								1986
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 913.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Guardfile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 78,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								56,
+								56
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close"
+							],
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Gemfile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 92,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								59,
+								59
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close"
+							],
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": ".init.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 79,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								79,
+								79
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close"
+							],
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 253.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"project": "soca.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"read",
+				"p1bitmanip/README"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"ep/au",
+				"app/api/epsilon/authenticate.rb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"user",
+				"app/models/user.rb"
+			],
+			[
+				"pict",
+				"app/models/pic_tag.rb"
+			],
+			[
+				"api",
+				"app/api/api.rb"
+			],
+			[
+				"spec/fa",
+				"spec/requests/api/v1/login_facebook_spec.rb"
+			],
+			[
+				"comm",
+				"app/models/comment.rb"
+			],
+			[
+				"tagba",
+				"app/models/tag_base.rb"
+			],
+			[
+				"usert",
+				"app/models/user_tag.rb"
+			],
+			[
+				"userts",
+				"app/serializers/user_tag_serializer.rb"
+			],
+			[
+				"config.",
+				"config.ru"
+			],
+			[
+				"gemlo",
+				"Gemfile.lock"
+			],
+			[
+				"userser",
+				"app/serializers/user_serializer.rb"
+			],
+			[
+				"userse",
+				"app/serializers/user_serializer.rb"
+			],
+			[
+				"config.ru",
+				"config.ru"
+			],
+			[
+				"app.r",
+				"config/application.rb"
+			],
+			[
+				"app.rb",
+				"config/application.rb"
+			],
+			[
+				"geml",
+				"Gemfile.lock"
+			],
+			[
+				"sch",
+				"db/schema.rb"
+			],
+			[
+				"usertagsp",
+				"spec/models/user_tag_spec.rb"
+			],
+			[
+				"pictagspe",
+				"spec/models/pic_tag_spec.rb"
+			],
+			[
+				"schem",
+				"db/schema.rb"
+			],
+			[
+				"tgba",
+				"app/models/tag_base.rb"
+			],
+			[
+				"pictag",
+				"spec/models/pic_tag_spec.rb"
+			],
+			[
+				"addinde",
+				"db/migrate/20131112185353_add_location_index_to_users.rb"
+			],
+			[
+				"tag",
+				"app/models/tag.rb"
+			],
+			[
+				"sche",
+				"db/schema.rb"
+			],
+			[
+				"addcontpi",
+				"db/migrate/20140225195230_add_content_to_pic_tags.rb"
+			],
+			[
+				"addcon",
+				"db/migrate/20131209032827_add_content_to_user_tags.rb"
+			],
+			[
+				"usertag",
+				"app/models/user_tag.rb"
+			],
+			[
+				"picta",
+				"app/models/pic_tag.rb"
+			],
+			[
+				"ini",
+				".init.sh"
+			],
+			[
+				"inis3",
+				"config/initializers/s3.rb"
+			],
+			[
+				"init",
+				".init.sh"
+			],
+			[
+				"frr",
+				"spec/models/friend_request_spec.rb"
+			],
+			[
+				"friesp",
+				"spec/models/friendship_spec.rb"
+			],
+			[
+				"frien",
+				"app/models/friendship.rb"
+			],
+			[
+				"swagger",
+				"app/views/layouts/swagger.html.haml"
+			],
+			[
+				"gemlock",
+				"Gemfile.lock"
+			],
+			[
+				"gemloc",
+				"Gemfile.lock"
+			],
+			[
+				"taglik",
+				"app/models/tag_like.rb"
+			],
+			[
+				"papercl",
+				"db/migrate/20140216175533_change_pic_tags_not_using_paperclip.rb"
+			],
+			[
+				"changepic",
+				"db/migrate/20140207220815_change_pic_tags_to_polymorphic.rb"
+			],
+			[
+				"tagli",
+				"app/models/tag_like.rb"
+			],
+			[
+				"usere",
+				"config/initializers/user_enumerable.rb"
+			],
+			[
+				"addano",
+				"db/migrate/20140216165010_add_anonymity_to_user_tags_and_pic_tags.rb"
+			],
+			[
+				"enum",
+				"config/initializers/user_enumerable.rb"
+			],
+			[
+				"logen",
+				"app/models/log_event.rb"
+			],
+			[
+				"createcomm",
+				"db/migrate/20140208161553_create_comments.rb"
+			],
+			[
+				"mode/usertag",
+				"app/models/user_tag.rb"
+			],
+			[
+				"remove",
+				"db/migrate/20140208000851_remove_user_avatars.rb"
+			],
+			[
+				"avatar",
+				"db/migrate/20131104154108_add_avatar_to_users.rb"
+			],
+			[
+				"avatarcolu",
+				"db/migrate/20140208000648_change_users_avatar_columns.rb"
+			],
+			[
+				"pic",
+				"app/models/pic_tag.rb"
+			],
+			[
+				"seed",
+				"db/seeds.rb"
+			],
+			[
+				"mig/pol",
+				"db/migrate/20140207220815_change_pic_tags_to_polymorphic.rb"
+			],
+			[
+				"log",
+				"app/models/log_event.rb"
+			],
+			[
+				"taglike",
+				"app/models/tag_like.rb"
+			],
+			[
+				"change",
+				"db/migrate/20140207220815_change_pic_tags_to_polymorphic.rb"
+			],
+			[
+				"userpre",
+				"app/models/user_preference.rb"
+			],
+			[
+				"factorus",
+				"spec/factories/users.rb"
+			],
+			[
+				"factor",
+				"spec/factories/users.rb"
+			],
+			[
+				"logeve",
+				"app/models/log_event.rb"
+			],
+			[
+				"devel",
+				"config/environments/development.rb"
+			],
+			[
+				"app",
+				"config/application.yml"
+			],
+			[
+				"appli",
+				"config/application.yml"
+			],
+			[
+				"appl",
+				"config/application.yml"
+			],
+			[
+				"produc",
+				"config/environments/production.rb"
+			],
+			[
+				"gemfi",
+				"Gemfile"
+			],
+			[
+				"users",
+				"spec/factories/users.rb"
+			],
+			[
+				"userspec",
+				"spec/models/user_spec.rb"
+			],
+			[
+				"fac/user",
+				"spec/factories/users.rb"
+			],
+			[
+				"see",
+				"db/seeds.rb"
+			],
+			[
+				"frie",
+				"app/models/friendship.rb"
+			],
+			[
+				"creatpict",
+				"db/migrate/20140109142221_create_pic_tags.rb"
+			],
+			[
+				"logeven",
+				"app/models/log_event.rb"
+			],
+			[
+				"logevent",
+				"db/migrate/20131225025644_create_log_events.rb"
+			],
+			[
+				"friendship",
+				"app/models/friendship.rb"
+			],
+			[
+				"seeds",
+				"db/seeds.rb"
+			],
+			[
+				"migr/tagli",
+				"db/migrate/20140104083307_add_value_to_tag_likes.rb"
+			],
+			[
+				"usertagspec",
+				"spec/requests/api/v1/user_tags_spec.rb"
+			],
+			[
+				"userpref",
+				"spec/models/user_preference_spec.rb"
+			],
+			[
+				"usertags",
+				"spec/models/user_tag_spec.rb"
+			],
+			[
+				"logger",
+				"lib/logger_fb.rb"
+			],
+			[
+				"testface",
+				"log/test_facebook.log"
+			],
+			[
+				"test_fa",
+				"log/test_facebook.log"
+			],
+			[
+				"face",
+				"log/development_facebook.log"
+			],
+			[
+				"friendreq",
+				"app/models/friend_request.rb"
+			],
+			[
+				"friend",
+				"app/models/friendship.rb"
+			],
+			[
+				"target",
+				"app/validators/target_validator.rb"
+			],
+			[
+				"usertagspe",
+				"spec/models/user_tag_spec.rb"
+			],
+			[
+				"deltae",
+				"config/initializers/delta_epsilon_constants.rb"
+			],
+			[
+				"databa",
+				"config/database.yml"
+			],
+			[
+				"locat",
+				"db/migrate/20131112185353_add_location_index_to_users.rb"
+			],
+			[
+				"createuserpref",
+				"db/migrate/20131230103012_create_user_preferences.rb"
+			],
+			[
+				"gemf",
+				"Gemfile.lock"
+			],
+			[
+				"adfbto",
+				"db/migrate/20131227092614_add_fb_token_to_users.rb"
+			],
+			[
+				"initializer/dev",
+				"config/initializers/devise.rb"
+			],
+			[
+				"omni",
+				"app/controllers/omniauth_callbacks_controller.rb"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"delta",
+				"config/initializers/delta_epsilon_constants.rb"
+			],
+			[
+				"userscontro",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"loge",
+				"app/models/log_event.rb"
+			],
+			[
+				"taglikes",
+				"app/controllers/tag_likes_controller.rb"
+			],
+			[
+				"dbyml",
+				"config/database.yml"
+			],
+			[
+				"timelin",
+				"db/migrate/20131224093908_create_timeline_events.rb"
+			],
+			[
+				"createlog",
+				"db/migrate/20131224092719_create_log_entries.rb"
+			],
+			[
+				"api.",
+				"app/api/api.rb"
+			],
+			[
+				"data",
+				"config/database.yml"
+			],
+			[
+				"datab",
+				"config/database.yml"
+			],
+			[
+				"login",
+				"spec/requests/api/v1/login_spec.rb"
+			],
+			[
+				"bundle",
+				"bin/bundle"
+			],
+			[
+				"usertagcont",
+				"app/controllers/user_tags_controller.rb"
+			],
+			[
+				"todo",
+				"todo.txt"
+			],
+			[
+				"railsadmin",
+				"config/initializers/rails_admin.rb"
+			],
+			[
+				"controll",
+				"app/controllers/tag_likes_controller.rb"
+			],
+			[
+				"ping",
+				"app/models/ping.rb"
+			],
+			[
+				"modules/",
+				"app/api/Modules/users.rb"
+			],
+			[
+				"apicon",
+				"app/controllers/api/api_controller.rb"
+			],
+			[
+				"apiuser",
+				"app/controllers/api/v1/users_controller.rb"
+			],
+			[
+				"api.rb",
+				"app/api/api.rb"
+			],
+			[
+				"application.rb",
+				"config/application.rb"
+			],
+			[
+				"api/v1/",
+				"app/controllers/api/v1/user_tags_controller.rb"
+			],
+			[
+				"usertgcon",
+				"app/controllers/api/v1/user_tags_controller.rb"
+			],
+			[
+				"apicontr",
+				"app/controllers/api/api_controller.rb"
+			],
+			[
+				"session",
+				"app/controllers/api/v1/sessions_controller.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 212.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
