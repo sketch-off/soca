@@ -3,7 +3,6 @@ $rb = $('#response-body')
 baseURL = 'https://api.sketch-off.com/api/v1'
 
 prettify = (str) ->
-    console.log str
     str = JSON.stringify JSON.parse(str), null, 4
     str = str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
     str.replace /("(\\u[a-zA-Z0-9]{4}|\\[^u]|[^\\"])*"(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?)/g, (match) ->
@@ -56,22 +55,72 @@ request = (text) ->
         con = '&'
     url = baseURL + url + con + authToken
 
-    data = $('#request-body').val()
-    console.log 'data: ' + data
-    $.ajax
-        url: url
-        type: verb
-        data: JSON.parse data
-        success: (data, status, xhr) ->
-            processResponse xhr
-        error: (xhr, status, err) ->
-            processResponse xhr
+    files = $('#request-file')[0].files
+    if files.length > 0
+        # binary data
+        data = new FormData()
+        data.append 'data', files[0]
+        $.ajax
+            url: url
+            type: 'post'
+            data: data
+            contentType: false
+            processData: false
+            success: (data, status, xhr) ->
+                processResponse xhr
+            error: (xhr, status, err) ->
+                processResponse xhr
+    else
+        # string data
+        data = $('#request-body').val()
+        console.log 'data: ' + data
+        unless data == ''
+            data = JSON.parse data
+        $.ajax
+            url: url
+            type: verb
+            data: data
+            success: (data, status, xhr) ->
+                processResponse xhr
+            error: (xhr, status, err) ->
+                processResponse xhr
 
 processResponse = (xhr) ->
     # console.log xhr
     $('#collapse-input').collapse 'hide'
     $('#response-header').text xhr.getAllResponseHeaders()
     $rb.html prettify xhr.responseText
+
+endpoints = [
+    '/backdoor/',
+    '/users/',
+    'POST /users/dummy',
+    '/user_tags/',
+    'POST /user_tags',
+    'DELETE /user_tags',
+    '/pic_tags/',
+    'POST /pic_tags',
+    'DELETE /pic_tags',
+    'POST /tag_likes',
+    'DELETE /tag_likes',
+    'POST /comments',
+    'DELETE /comments',
+    '/friends',
+    '/search/users',
+    'POST /me/update',
+    '/me/facebook/friends',
+    '/me/facebook/avatar',
+    '/me/preferences',
+    'POST /me/preferences',
+    '/me',
+    '/me/news_feed',
+    '/me/my_feed',
+    '/me/following_feed'
+]
+$('#request-line').typeahead
+    source: endpoints
+$('#base-url').typeahead
+    source: ['https://api.sketch-off.com', 'http://0.0.0.0:3000']
 
 
 

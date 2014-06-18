@@ -1,18 +1,11 @@
 (function() {
-  var $rb, baseURL, prettify, processResponse, request, requestToken;
+  var $rb, baseURL, endpoints, prettify, processResponse, request, requestToken;
 
   $rb = $('#response-body');
-
-  $(document).ajaxSend(function(e, xhr, s) {
-    console.log('-----------------------------------');
-    console.log(e);
-    return console.log(xhr);
-  });
 
   baseURL = 'https://api.sketch-off.com/api/v1';
 
   prettify = function(str) {
-    console.log(str);
     str = JSON.stringify(JSON.parse(str), null, 4);
     str = str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
     return str.replace(/("(\\u[a-zA-Z0-9]{4}|\\[^u]|[^\\"])*"(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?)/g, function(match) {
@@ -69,7 +62,7 @@
   });
 
   request = function(text) {
-    var authToken, con, data, url, verb, _ref;
+    var authToken, con, data, files, url, verb, _ref;
     console.log('requesting: ' + text);
     _ref = text.split(' '), verb = _ref[0], url = _ref[1];
     if (url == null) {
@@ -83,19 +76,41 @@
       con = '&';
     }
     url = baseURL + url + con + authToken;
-    data = $('#request-body').val();
-    console.log('data: ' + data);
-    return $.ajax({
-      url: url,
-      type: verb,
-      data: JSON.parse(data),
-      success: function(data, status, xhr) {
-        return processResponse(xhr);
-      },
-      error: function(xhr, status, err) {
-        return processResponse(xhr);
+    files = $('#request-file')[0].files;
+    if (files.length > 0) {
+      data = new FormData();
+      data.append('data', files[0]);
+      return $.ajax({
+        url: url,
+        type: 'post',
+        data: data,
+        contentType: false,
+        processData: false,
+        success: function(data, status, xhr) {
+          return processResponse(xhr);
+        },
+        error: function(xhr, status, err) {
+          return processResponse(xhr);
+        }
+      });
+    } else {
+      data = $('#request-body').val();
+      console.log('data: ' + data);
+      if (data !== '') {
+        data = JSON.parse(data);
       }
-    });
+      return $.ajax({
+        url: url,
+        type: verb,
+        data: data,
+        success: function(data, status, xhr) {
+          return processResponse(xhr);
+        },
+        error: function(xhr, status, err) {
+          return processResponse(xhr);
+        }
+      });
+    }
   };
 
   processResponse = function(xhr) {
@@ -103,5 +118,15 @@
     $('#response-header').text(xhr.getAllResponseHeaders());
     return $rb.html(prettify(xhr.responseText));
   };
+
+  endpoints = ['/backdoor/', '/users/', 'POST /users/dummy', '/user_tags/', 'POST /user_tags', 'DELETE /user_tags', '/pic_tags/', 'POST /pic_tags', 'DELETE /pic_tags', 'POST /tag_likes', 'DELETE /tag_likes', 'POST /comments', 'DELETE /comments', '/friends', '/search/users', 'POST /me/update', '/me/facebook/friends', '/me/facebook/avatar', '/me/preferences', 'POST /me/preferences', '/me', '/me/news_feed', '/me/my_feed', '/me/following_feed'];
+
+  $('#request-line').typeahead({
+    source: endpoints
+  });
+
+  $('#base-url').typeahead({
+    source: ['https://api.sketch-off.com', 'http://0.0.0.0:3000']
+  });
 
 }).call(this);
